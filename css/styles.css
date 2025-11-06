@@ -319,6 +319,14 @@ summary::-webkit-details-marker {display: none;} /*safari*/
     margin-bottom: 50px;
 }
 
+.archive-content {
+    margin-bottom: 50px;
+}
+
+.archive-content a {
+    text-decoration: none;
+}
+
 footer {
     position: relative;
     padding: 0px 0;

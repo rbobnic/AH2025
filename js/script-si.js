@@ -21,17 +21,17 @@ window.programData = [
     items: [
       {
         time: "9.15-11.00",
-        panel: "Panel I: AI generated culture",
+        panel: "PANEL I: AI GENERATED CULTURE",
         position: "1",
         chair: "Robert Bobnič",
         speaker: "Lovrenc Rogelj",
-        title: "<em>Kleinmeister</em>, Musical Algorithms, and the Instrumentality of Instruments",
-        abstract: "Most histories of Western music still tell the story of artistic subjectivity – a succession of great figures who, across the centuries, mastered and transcended the available musical material. In their shadow hide the so‑called minor masters (<em>Kleinmeister</em>), whose works today serve merely as a backdrop for identifying what was then deemed “mediocrity,” even though they often occupied higher social positions than the now‑canonized composers. This paper turns its focus precisely to the <em>Kleinmeister</em> as exemplary faithful executors of the musical algorithm. In doing so, it draws in part on David Cope, one of the pioneers of AI‑driven composition, who understood composing as an essentially algorithmic process: wherever there is musical regularity, an algorithm can be identified, taught, rehearsed, and reworked. <br><br>We approach this starting perspective through three historical vignettes. First, we stop at Enlightenment <em>ready‑made</em> dances and musical dice games; then at the serialists and aleatoric composers who, in the name of desubjectivising composition, replaced the execution of existing algorithms with the solipsistic invention of their own algorithmic meta‑principles. Finally, we turn to a historical moment when the technology of notation – and the algorithms based on it – was disrupted by the sound of machines. These opened up a previously unknown domain of idiomatically machinic sound processing – a domain that was quickly domesticated and re‑humanized, precisely in the name of the old, human algorithm that presumes the strictly instrumental use of musical instruments.",
-        bio: "<strong>Lovrenc Rogelj</strong> is a Junior Researcher at the Institute of Philosophy of the Slovenian Academy of Arts and Sciences and is also a member of the Programme Committee of the Institute for Labour Studies. His work focuses on the notion of standardisation in relation to the theory of the commodity form, more specifically on the question of the specificity of the production and consumption of commodities created by so‑called artistic means."
+        title: "Mali mojstri, glasbeni algoritmi in instrumentalnost instrumentov",
+        abstract: "Večina zgodovin zahodne glasbe še vedno piše povesti o umetniški subjektivnosti – kot sosledje velikanov, ki so skozi stoletja obvladovali in presegali ponujeno glasbeno tvarino. V njihovi senci se skrivajo tako imenovani mali mojstri, katerih dela običajno služijo za razpoznavanje takratne »povprečnosti«, četudi so ti nemalokrat zasedali višje družbene položaje kot danes kanonizirani skladatelji. V prispevku očišče usmerjamo prav proti <em>Kleinmeister<em>, zgledu zvestih vršilcev glasbenega algoritma. Pri tem se med drugim naslanjamo na Davida Copa, enega pionirjev kompozicije s pomočjo umetne inteligence, ki je skladanje razumel kot v temelju algoritmičen proces: kjer obstaja glasbena regularnost, tam je mogoče algoritem prepoznati, poučevati in preigravati.<br><br>To izhodiščno perspektivo obravnavamo skozi tri zgodovinske vinjete. Najprej se bomo ustavili pri razsvetljenskih ready-made plesih in glasbenih igrah s kockami, nato pri povojnih serialistih in aleatorikih, ki so izvrševanje algoritma v imenu desubjektivacije skladanja zamenjali s solipsističnim izumljanjem lastnih algoritmičnih načel, za konec pa se bomo posvetili še zgodovinskemu prelomu, ko je tehnologijo notacije in na njej zasnovane glasbene algoritme prekinilo zvočenje strojev. Ti so odprli dotlej neznan prostor idiomatsko strojnega procesiranja zvoka – prostor, ki je bil hitro udomačen in počlovečen, prav v imenu starega, človeškega algoritma, ki predvideva strogo instrumentalno rabo glasbenih instrumentov.",
+        bio: "<strong>LOVRENC ROGELJ<strong> is a Junior Researcher at the Institute of Philosophy of the Slovenian Academy of Arts and Sciences and is also a member of the Programme Committee of the Institute for Labour Studies. His work focuses on the notion of standardisation in relation to the theory of the commodity form, more specifically on the question of the specificity of the production and consumption of commodities created by so‑called artistic means."
       },
       {
         time: "9.15-11.00",
-        panel: "Panel I: AI generated culture",
+        panel: "PANEL I: AI GENERATED CULTURE",
         position: "2",
         chair: "Robert Bobnič",
         speaker: "Enej Zorman & Jaša Potočnik",
@@ -41,17 +41,17 @@ window.programData = [
       },
       {
         time: "9.15-11.00",
-        panel: "Panel I: AI generated culture",
+        panel: "PANEL I: AI GENERATED CULTURE",
         position: "3",
         chair: "Robert Bobnič",
         speaker: "Vanessa Nina Borsan & Jan Ovnik",
-        title: "“Is the Class of Musicians Doomed to Extinction?”: Reactions to the Proliferation of Mechanical Reproduction of Music and Their Consequences in the Kingdom of SCS/Yugoslavia",
-        abstract: "The recent aesthetic, legal, and moral anxiety expressed by musicians over AI-generated music is hardly unprecedented. Rather, it represents the latest chapter in a long-standing history of friction between musicians and technological innovation—disruptions that have continually reshaped how music is produced, consumed, and distributed. A particularly pivotal shift was the development of technologies for mechanical music reproduction, which, after the First World War, also spread widely in the Kingdom of Serbs, Croats and Slovenes, gradually joining or replacing several forms of live performance and threatening the material livelihood of musicians. By the late 1920s, professional musicians within the Association of Musicians of the Kingdom of SCS (later Yugoslavia) increasingly began to wonder: “Is the class of musicians doomed to extinction?” The existence of the musical profession was then seen as seriously threatened by the (over) rapid pace of technological development, leading them to often call on the authorities to implement various measures to protect traditional forms of their services. Yugoslav musicians voiced their demands, technonostalgic arguments, and broader critiques of new technologies in the bulletin Muzičar and other contemporary music periodicals. Observing these, the presenters will explore the implications of the discourse, which—beyond material interests and seemingly self-evident professional hierarchies—also rests on problematic forms of social exclusion and control over who is allowed to (re)create, how, where, and with what means—dilemmas that remain pertinent to this day.",
-        bio: "<strong>Vanessa Nina Borsan</strong>, PhD, works at the intersection of music and technology. After completing her master’s degrees in Musicology (University of Ljubljana) and in Sound and Music Computing (Pompeu Fabra University), she earned her PhD in Computer Science from the University of Lille. Her doctoral research focused on computer-assisted analysis of musical patterns in Slovenian folk songs. She critically reflects on computational approaches in music studies and incorporates contemporary technologies into music research and education. She has worked in Slovenia, France, Spain, the United Kingdom, and Japan, and is currently a research fellow at the Department of Musicology, Faculty of Arts, University of Ljubljana. <strong>Jan Ovnik</strong> is a Junior Researcher at the Institute of Ethnomusicology ZRC SAZU. He holds a master’s degree in Musicology from the Faculty of Arts at the University of Ljubljana. He is currently in the final stages of his second master’s degree in Social and Cultural History at the same institution, where he is also enrolled in a doctoral programme in Ethnology and Cultural and Social Anthropology. As part of his postgraduate studies, he spent a semester at the University of Padua in Italy, and during his doctoral studies, he spent over a month at An Giang University in Vietnam. His research has addressed topics in cultural history, (historical) ethnomusicology, epistemology of music studies, and economic anthropology of music."
+        title: "»Ali je razred glasbenikov obsojen na izumrtje?«: odzivi na razmah mehanskega reproduciranja glasbe in njihove posledice v Kraljevini SHS/Jugoslaviji",
+        abstract: "Estetska, pravna in moralna panika glasbenikov, ki v zadnjih letih spremlja vznik generiranja glasbe z umetno inteligenco, je zgodovinsko vse prej kot osamljen pojav. Gre zgolj za najnovejše poglavje v dolgi zgodovini nenehnih trenj med glasbeniki in tehnološkimi inovacijami, ki vedno znova pretresejo ustaljene načine (re)produciranja, konzumiranja ali distribuiranja glasbe. V tem oziru je bil še posebej prelomen razvoj tehnologij za mehansko reproduciranje glasbe, ki so se po koncu prve svetovne vojne množično razširile tudi v Kraljevini SHS, kjer so postopoma nadomestile marsikatero obliko živega muziciranja in s tem ogrozile materialno eksistenco številnih jugoslovanskih glasbenic in glasbenikov. Tako so se denimo poklicni glasbeniki, zbrani v Zvezi glasbenikov Kraljevine SHS (pozneje Jugoslavije), že vsaj od konca dvajsetih let prejšnjega stoletja dalje vse pogosteje javno spraševali: »Ali je razred glasbenikov obsojen na izumrtje?« Obstoj glasbenega poklica naj bi bil namreč takrat resno ogrožen vsled (pre)hitrega tehnološkega razvoja, zaradi česar so tedanje oblasti redno pozivali k različnim ukrepom, ki bi zaščitili tradicionalne oblike njihove storitvene dejavnosti. Svoje zahteve in tehnonostalgične argumente zanje ter nasploh kritike novih tehnologij so jugoslovanski glasbeniki predstavljali v stanovskem glasilu Muzičar in drugih sočasnih revijah. V njih bosta referenta razgrnila predvsem implikacije tega diskurza, ki ob materialnih interesih in na videz samoumevnih stanovskih hierarhijah temeljijo tudi na vprašljivem družbenem izključevanju in nadzoru nad tem, kdo sme (po)ustvarjati, kako, kje in s čim – dileme, ki ostajajo aktualne še danes.",
+        bio: "<strong>VANESSA NINA BORSAN<strong> deluje na presečišču glasbe in tehnologije. Po zaključku magisterijev iz muzikologije (Univerza v Ljubljani) in zvočnega in glasbenega programiranja na (Univerza Pompeu Fabra) je doktorirala iz računalništva in informatike na Univerzi v Lillu. V svojem doktoratu se je osredotočila na računalniško podprto analizo glasbenih vzorcev v slovenski ljudski pesmi. Posebno pozornost namenja kritični refleksiji ačunalniško podprtega glasboslovja ter vključevanju sodobnih tehnologij v glasbeno raziskovanje in izobraževanje. Delovala je v Sloveniji, Franciji, Španiji, Veliki Britaniji in na Japonskem, trenutno pa je zaposlena kot raziskovalka na Oddelku za muzikologijo Filozofske fakultete Univerze v Ljubljani. <strong>JAN OVNIK<strong> je mladi raziskovalec na Glasbenonarodopisnem inštitutu ZRC SAZU. Magistriral je iz muzikologije na Filozofski fakulteti Univerze v Ljubljani. Trenutno je v zaključni fazi svojega drugega magistrskega študija s področja socialne in kulturne zgodovine na isti ustanovi, kjer je tudi doktorski študent etnologije, kulturne in socialne antropologije. V sklopu podiplomskega študija se je en semester izpopolnjeval na Univerzi v Padovi v Italiji, v okviru doktorskega študija pa dober mesec tudi na univerzi An Giang v Vietnamu. Pri svojem dosedanjem raziskovalnem delu se je ukvarjal z različnimi vprašanji s področij kulturne zgodovine, (historične) etnomuzikologije, epistemologije glasboslovja in ekonomske antropologije glasbe."
       },
       {
         time: "9.15-11.00",
-        panel: "Panel I: AI generated culture",
+        panel: "PANEL I: AI GENERATED CULTURE",
         position: "4",
         chair: "Robert Bobnič",
         speaker: "Nikolaj Fišer",
@@ -61,7 +61,7 @@ window.programData = [
       },
       {
         time: "11.15-13.00",
-        panel: "Panel II: Philosophical investigations of AI",
+        panel: "PANEL II: PHILOSOPHICAL INVESTIGATIONS OF AI",
         position: "1",
         chair: "Simon Hajdini",
         speaker: "Martin Hergouth",
@@ -71,7 +71,7 @@ window.programData = [
       },
       {
         time: "11.15-13.00",
-        panel: "Panel II: Philosophical investigations of AI",
+        panel: "PANEL II: PHILOSOPHICAL INVESTIGATIONS OF AI",
         position: "2",
         chair: "Simon Hajdini",
         speaker: "Sašo Furlan",
@@ -81,7 +81,7 @@ window.programData = [
       },
       {
         time: "11.15-13.00",
-        panel: "Panel II: Philosophical investigations of AI",
+        panel: "PANEL II: PHILOSOPHICAL INVESTIGATIONS OF AI",
         position: "3",
         chair: "Simon Hajdini",
         speaker: "Igor Bijuklič",
@@ -91,7 +91,7 @@ window.programData = [
       },
       {
         time: "11.15-13.00",
-        panel: "Panel II: Philosophical investigations of AI",
+        panel: "PANEL II: PHILOSOPHICAL INVESTIGATIONS OF AI",
         position: "4",
         chair: "Simon Hajdini",
         speaker: "Joseph Grim Feinberg",
@@ -101,7 +101,7 @@ window.programData = [
       },
       {
         time: "16.15-17.45",
-        panel: "Panel IV: New culture in play",
+        panel: "PANEL IV: NEW CULTURE IN PLAY",
         position: "1",
         chair: "Natalija Majsova",
         speaker: "Lea Sande & Tisa Troha",
@@ -111,7 +111,7 @@ window.programData = [
       },
       {
         time: "16.15-17.45",
-        panel: "Panel IV: New culture in play",
+        panel: "PANEL IV: NEW CULTURE IN PLAY",
         position: "3",
         chair: "Natalija Majsova",
         speaker: "Ivan Slijepčević",
@@ -121,7 +121,7 @@ window.programData = [
       },
       {
         time: "16.15-17.45",
-        panel: "Panel IV: New culture in play",
+        panel: "PANEL IV: NEW CULTURE IN PLAY",
         position: "2",
         chair: "Natalija Majsova",
         speaker: "Ivan Matić",
@@ -131,7 +131,7 @@ window.programData = [
       },
       {
         time: "14.15-16.00",
-        panel: "Panel III: Neural media epistemology",
+        panel: "PANEL III: NEURAL MEDIA EPISTEMOLOGY",
         position: "2",
         chair: "Jasmina Šepetavc",
         speaker: "Simon Hajdini",
@@ -141,7 +141,7 @@ window.programData = [
       },
       {
         time: "14.15-16.00",
-        panel: "Panel III: Neural media epistemology",
+        panel: "PANEL III: NEURAL MEDIA EPISTEMOLOGY",
         position: "4",
         chair: "Jasmina Šepetavc",
         speaker: "Eva Drofenik & Jaka Vrščaj",
@@ -151,7 +151,7 @@ window.programData = [
       },
             {
         time: "14.15-16.00",
-        panel: "Panel III: Neural media epistemology",
+        panel: "PANEL III: NEURAL MEDIA EPISTEMOLOGY",
         position: "1",
         chair: "Jasmina Šepetavc",
         speaker: "Katherine Behar & David Cecchetto",
@@ -161,7 +161,7 @@ window.programData = [
       },
       {
         time: "14.15-16.00",
-        panel: "Panel III: Neural media epistemology",
+        panel: "PANEL III: NEURAL MEDIA EPISTEMOLOGY",
         position: "3",
         chair: "Jasmina Šepetavc",
         speaker: "Zarja Zver",
@@ -171,7 +171,7 @@ window.programData = [
       },
       {
         time: "19.00",
-        panel: "Večerja",
+        panel: "VEČERJA",
         position: "1",
         speaker: "restavracija Mirje",
         title: "Tržaška cesta 5, Ljubljana",
@@ -186,7 +186,7 @@ window.programData = [
     items: [
       {
         time: "16.15-18.00",
-        panel: "Panel VIII: Post-anthropogenesis",
+        panel: "PANEL VIII: POST-ANTHROPOGENESIS",
         position: "1",
         chair: "Primož Krašovec",
         speaker: "Alexei Anisin",
@@ -196,7 +196,7 @@ window.programData = [
       },
       {
         time: "14.15-16.00",
-        panel: "Panel VII: Artificial art and aesthetics",
+        panel: "PANEL VII: ARTIFICIAL ART AND AESTHETICS",
         position: "1",
         chair: "Jernej Kaluža",
         speaker: "Tanya Ravn Ag, Mick With Berland & Daniel Irrgang",
@@ -206,7 +206,7 @@ window.programData = [
       },
       {
         time: "14.15-16.00",
-        panel: "Panel VII: Artificial art and aesthetics",
+        panel: "PANEL VII: ARTIFICIAL ART AND AESTHETICS",
         position: "2",
         chair: "Jernej Kaluža",
         speaker: "Eszter Polonyi",
@@ -216,7 +216,7 @@ window.programData = [
       },
       {
         time: "14.15-16.00",
-        panel: "Panel VII: Artificial art and aesthetics",
+        panel: "PANEL VII: ARTIFICIAL ART AND AESTHETICS",
         position: "3",
         chair: "Jernej Kaluža",
         speaker: "Rok Benčin",
@@ -226,7 +226,7 @@ window.programData = [
       },
       {
         time: "14.15-16.00",
-        panel: "Panel VII: Artificial art and aesthetics",
+        panel: "PANEL VII: ARTIFICIAL ART AND AESTHETICS",
         position: "4",
         chair: "Jernej Kaluža",
         speaker: "Alen Golež",
@@ -236,7 +236,7 @@ window.programData = [
       },
       {
         time: "11.30-13.00",
-        panel: "Panel VI: Miscellaneous",
+        panel: "PANEL VI: MISCELLANEOUS",
         position: "1",
         chair: "Lidija Šumah",
         speaker: "Maks Valenčič",
@@ -246,7 +246,7 @@ window.programData = [
       },
       {
         time: "16.15-18.00",
-        panel: "Panel VIII: Post-anthropogenesis",
+        panel: "PANEL VIII: POST-ANTHROPOGENESIS",
         position: "3",
         chair: "Primož Krašovec",
         speaker: "Valerija Vendramin",
@@ -256,7 +256,7 @@ window.programData = [
       },
       {
         time: "11.30-13.00",
-        panel: "Panel VI: Miscellaneous",
+        panel: "PANEL VI: MISCELLANEOUS",
         position: "3",
         chair: "Lidija Šumah",
         speaker: "Miroslav Griško",
@@ -266,7 +266,7 @@ window.programData = [
       },
       {
         time: "9.30-11.15",
-        panel: "Panel V: AI creation and public transformation",
+        panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "1",
         chair: "Nina Cvar",
         speaker: "Tjaša Sobočan",
@@ -276,7 +276,7 @@ window.programData = [
       },
       {
         time: "9.30-11.15",
-        panel: "Panel V: AI creation and public transformation",
+        panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "2",
         chair: "Nina Cvar",
         speaker: "Barbara Zagorc & Marko Drobnjak",
@@ -286,7 +286,7 @@ window.programData = [
       },
       {
         time: "9.30-11.15",
-        panel: "Panel V: AI creation and public transformation",
+        panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "3",
         chair: "Nina Cvar",
         speaker: "Jernej Kaluža",
@@ -296,7 +296,7 @@ window.programData = [
       },
       {
         time: "9.30-11.15",
-        panel: "Panel V: AI creation and public transformation",
+        panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "4",
         chair: "Nina Cvar",
         speaker: "Slavko Splichal",
@@ -306,7 +306,7 @@ window.programData = [
       },
       {
         time: "11.30-13.00",
-        panel: "Panel VI: Miscellaneous",
+        panel: "PANEL VI: MISCELLANEOUS",
         position: "2",
         chair: "Lidija Šumah",
         speaker: "Primož Krašovec",
@@ -316,7 +316,7 @@ window.programData = [
       },
       {
         time: "16.15-18.00",
-        panel: "Panel VIII: Post-anthropogenesis",
+        panel: "PANEL VIII: POST-ANTHROPOGENESIS",
         position: "2",
         chair: "Primož Krašovec",
         speaker: "Matija Pušnik",
@@ -326,7 +326,7 @@ window.programData = [
       },
       {
         time: "16.15-18.00",
-        panel: "Panel VIII: Post-anthropogenesis",
+        panel: "PANEL VIII: POST-ANTHROPOGENESIS",
         position: "4",
         chair: "Primož Krašovec",
         speaker: "Anna Olszewska",
