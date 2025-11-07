@@ -503,14 +503,6 @@ function renderProgram(data){
   // Initial render
   loadRoute(currentPath());
 
-
-document.querySelector('.nav-menu').addEventListener('click', (e) => {
-  const a = e.target.closest('a');
-  if (!a) return;
-  document.querySelectorAll('.nav-menu a.is-active').forEach(el => el.classList.remove('is-active'));
-  a.classList.add('is-active');
-});
-
 document.addEventListener("DOMContentLoaded", () => {
   const burger = document.querySelector(".hamburger");
   const menu = document.querySelector("#nav-menu");
