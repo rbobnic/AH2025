@@ -19,7 +19,7 @@
 body {
     font-family: var(--font);
     line-height: 1.6;
-    font-size: 18px;
+    font-size: clamp(16px, 1.8vw, 18px); 
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -102,15 +102,15 @@ main {
     text-decoration: none;
     /*-webkit-text-stroke: 1px black;*/
     transition: color 0.3s ease;
-    font-size: 1.8em;
+    font-size: clamp(18px, 4.5vw, 1.8em);
     font-weight: 700;
     line-height: 1; 
     display: block; 
 }
 
 .nav-menu a[href="keynote-si"] .line-tight {
-  line-height: 1;
-  display: inline-block;
+    line-height: 1;
+    display: inline-block;
 }
 
 .nav-menu a:hover {
@@ -118,6 +118,23 @@ main {
 }
 
 .nav-menu a.is-active {color: var(--fg);} 
+
+.hamburger {
+    display: none;
+    background: transparent;
+    border: 0;
+    padding: 12px;
+    margin: 16px;
+    cursor: pointer;
+}
+.hamburger .bar {
+    display: block;
+    width: 28px;
+    height: 2px;
+    background: var(--fg);
+    margin: 6px 0;
+    transition: transform .25s ease, opacity .25s ease;
+}
 
 .content{
     margin: 40px;
@@ -390,57 +407,39 @@ hr.footer-line {
     border-radius: 8px;
 }
 
+@media (max-width: 1024px) {
+  .main-section { flex-direction: column; padding: 24px 0; }
+  .content { margin: 16px; }
+}
+
+@media (max-width: 900px) {
+  .hamburger { display: block; }
+  .nav-menu {
+    display: none;
+    position: relative;
+    margin: 0 16px 16px;
+    padding: 12px 0;
+    gap: 0.8em;
+    background: transparent;
+  }
+  .nav-menu.open { display: flex; }
+  .nav-menu li { margin: 0; }
+}
 
 @media (max-width: 600px) {
-  .footer > div {
+  header { aspect-ratio: 2 / 1; }
+  .news-section, .programme-section { margin: 16px; }
+  .abstract, .bio { margin: 12px 0 12px 0; font-size: 1rem; }
+}
+
+.footer-container { flex-wrap: wrap; }
+@media (max-width: 600px) {
+  .footer-container {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     gap: 12px;
-  }
-  .social-links {
-    margin-left: 0;
-    justify-content: flex-end;
+    padding: 8px 16px;
   }
 }
-
-@media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-
-    .nav-menu {
-        width: 100%;
-        max-width: none;
-        padding-top: clamp(48px, 12vw, 96px);
-        padding-inline: clamp(24px, 6vw, 48px);
-    }
-
-    .nav-menu.open {
-        width: 100%;
-        max-width: none;
-    }
-
-    .nav-menu li {
-        margin: 16px 0;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .footer-logos {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
 
 
