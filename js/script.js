@@ -426,78 +426,120 @@ function renderProgram(data){
 }
 
 
-  // Map files
-  const routes = {
-    "/about": "about.html",
-    "/programme": "programme.html",
-    "/keynote": "keynote.html",
-    "/info": "info.html",
-    "/credits": "credits.html",
-    "/archive": "archive.html",
-    "/o-konferenci": "o-konferenci.html",
-    "/program": "program.html",
-    "/keynote-si": "keynote-si.html",
-    "/lokacije": "lokacije.html",
-    "/kolofon": "kolofon.html",
-    "/arhiv": "arhiv.html",
-    "/": null
-  };
+// Map files
+const routes = {
+  "/about": "about.html",
+  "/programme": "programme.html",
+  "/keynote": "keynote.html",
+  "/info": "info.html",
+  "/credits": "credits.html",
+  "/archive": "archive.html",
+  "/o-konferenci": "o-konferenci.html",
+  "/program": "program.html",
+  "/keynote-si": "keynote-si.html",
+  "/lokacije": "lokacije.html",
+  "/kolofon": "kolofon.html",
+  "/arhiv": "arhiv.html",
+  "/": null
+};
 
-  function getContainer() {
-    return document.querySelector(".content");
+function getContainer() {
+  return document.querySelector(".content");
+}
+
+function currentPath() {
+  // Prefer hash (hash routing works on GitHub Pages), fallback to "/"
+  return location.hash.replace(/^#/, "") || "/";
+}
+
+async function loadRoute(path) {
+  const target = routes[path] ?? null;
+  const container = getContainer();
+  if (!container) return;
+  if (!target) {
+    // No partial for this path -> keep whatever is in .content (or clear it)
+    // container.innerHTML = ""; // uncomment if you want a blank home
+    return;
   }
 
-  function currentPath() {
-    // Prefer hash (hash routing works on GitHub Pages), fallback to "/"
-    return location.hash.replace(/^#/, "") || "/";
-  }
-
-  async function loadRoute(path) {
-    const target = routes[path] ?? null;
-    const container = getContainer();
-    if (!container) return;
-
-    if (!target) {
-      // No partial for this path -> keep whatever is in .content (or clear it)
-      // container.innerHTML = ""; // uncomment if you want a blank home
-      return;
+  try {
+    const html = await (await fetch(target)).text();
+    container.innerHTML = html;
+    // Hydrate AFTER injection
+    if (path === "/programme" && typeof renderProgram === "function") {
+      renderProgram(window.programData);
     }
-
-    try {
-      const html = await (await fetch(target)).text();
-      container.innerHTML = html;
-
-      // Hydrate AFTER injection
-      if (path === "/programme" && typeof renderProgram === "function") {
-        renderProgram(window.programData);
-      }
-
-      // Optional: scroll to top of content
-      container.scrollIntoView({ behavior: "instant", block: "start" });
-
-    } catch (err) {
-      container.innerHTML = "<p>Couldn't load this section.</p>";
-      console.error(err);
-    }
+    
+    // Optional: scroll to top of content
+    container.scrollIntoView({ behavior: "instant", block: "start" });
+  } catch (err) {
+    container.innerHTML = "<p>Couldn't load this section.</p>";
+    console.error(err);
   }
+}
 
-  // Intercept nav clicks on data-route links
-  document.addEventListener("click", (e) => {
-    const a = e.target.closest("a[data-route]");
-    if (!a) return;
+// Helper: normalize path
+function normalizePath(p) {
+  if (!p) return "/";
+  const url = new URL(p, location.origin);
+  return url.pathname.replace(/\/+$/, "") || "/";
+}
 
-    e.preventDefault();
+// Helper: current route from hash (GitHub Pages friendly)
+function currentPath() {
+  const raw = (location.hash || "").replace(/^#/, "") || "/";
+  return normalizePath(raw);
+}
 
-    // Normalize to hash routing so deep-links work on GitHub Pages
-    const url = new URL(a.getAttribute("href"), location.origin);
-    location.hash = url.pathname;       // e.g. "#/programme"
+// Apply .is-active to the matching data-route link
+function setActiveLink(path) {
+  // homepage should highlight ABOUT
+  if (path === "/") path = "/about";
+
+  document.querySelectorAll(".nav-menu a[data-route]").forEach(a => {
+    const linkPath = normalizePath(a.getAttribute("href"));
+    a.classList.toggle("is-active", linkPath === path);
+  });
+}
+
+// Intercept nav clicks on data-route links
+document.addEventListener("click", (e) => {
+  const a = e.target.closest("a[data-route]");
+  if (!a) return;
+
+  e.preventDefault();
+  const path = normalizePath(a.getAttribute("href"));
+  // use hash routing so deep-links work on static hosting
+  if (location.hash.replace(/^#/, "") !== path) {
+    location.hash = path;            // triggers hashchange -> loadRoute + setActiveLink
+  } else {
+    // if already on the same hash, still update UI
+    setActiveLink(path);
+    loadRoute(path);
+  }
+});
+
+// Back/forward
+window.addEventListener("hashchange", () => {
+  const path = currentPath();
+  setActiveLink(path);
+  loadRoute(path);
+});
+
+// Initial render — ensure only the correct one is active
+(function init() {
+  // remove accidental is-active from any non-matching links
+  document.querySelectorAll(".nav-menu a[data-route].is-active").forEach(a => {
+    const linkPath = normalizePath(a.getAttribute("href"));
+    const shouldBeActive =
+      (location.hash === "" && linkPath === "/about") ||
+      (location.hash !== "" && linkPath === currentPath());
+    if (!shouldBeActive) a.classList.remove("is-active");
   });
 
-  // Handle back/forward
-  window.addEventListener("hashchange", () => loadRoute(currentPath()));
-
-  // Initial render
+  setActiveLink(currentPath());
   loadRoute(currentPath());
+})();
 
 document.addEventListener("DOMContentLoaded", () => {
   const burger = document.querySelector(".hamburger");
