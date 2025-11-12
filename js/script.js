@@ -392,7 +392,21 @@ function renderProgram(data){
         if (p1 === p2) return t1._idx - t2._idx;
         return p1 - p2;
         });
-    });   
+    });
+    
+      if (!$root.dataset.closeHandlerAttached) {
+    $root.addEventListener("click", (e) => {
+      const btn = e.target.closest(".details-close");
+      if (!btn) return;
+      const d = btn.closest("details");
+      if (d) {
+        d.open = false;
+        const s = d.querySelector("summary");
+        if (s) s.focus();y
+      }
+    });
+    $root.dataset.closeHandlerAttached = "true";
+    }
 
     const groupsHTML = groups.map(g => `
       <div class="panel">
@@ -408,7 +422,10 @@ function renderProgram(data){
                 <span class="presentation-title">${t.title}</span>
               </summary>
               <p class="abstract">${t.abstract}</p>
-              <p class="bio">${t.bio || ""}</p>
+              ${t.bio
+                ? `<p class="bio">${t.bio} <button class="details-close" type="button" aria-label="Close this talk">×</button></p>`
+                : ""
+              }
             </details>
         `).join("")}
       </ul>
@@ -469,7 +486,7 @@ async function loadRoute(path) {
     if (path === "/programme" && typeof renderProgram === "function") {
       renderProgram(window.programData);
     }
-    
+
     // Optional: scroll to top of content
     container.scrollIntoView({ behavior: "instant", block: "start" });
   } catch (err) {

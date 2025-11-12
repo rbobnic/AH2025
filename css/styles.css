@@ -204,7 +204,9 @@ main {
     line-height: 1.6; 
 }
 
-details {margin-top: .25rem;}
+details {
+    position: relative;
+    margin-top: .25rem;}
 
 summary { 
     cursor: pointer; 
@@ -254,6 +256,21 @@ summary::-webkit-details-marker {display: none;} /*safari*/
     position: relative;
     font-size: 1.1rem;
     text-align: justify;
+}
+
+.bio .details-close {
+    background: none;
+    border: none;
+    font: inherit;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--light-blue);
+    font-size: 1.7rem;
+}
+
+.bio .details-close:focus-visible {
+    outline: 2px solid currentColor;
+    border-radius: .25rem;
 }
 
 /*
