@@ -253,7 +253,7 @@ window.programData = [
         bio: "<strong>MIROSLAV GRIŠKO</strong> is a philosopher and writer based in Ljubljana. He is the author of <em>Eshatološka vojna</em> (<em>Eschatological War</em>), published in 2022 by KUD Apokalipsa and in electronic edition by Društvo Galerija Boks (2023)."
       },
       {
-        time: "9.30-11.15",
+        time: "9.30-11.10",
         panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "1",
         chair: "Nina Cvar",
@@ -263,7 +263,7 @@ window.programData = [
         bio: "<strong>TJAŠA SOBOČAN</strong> je strokovna sodelavka Laboratorija za telekomunikacije (LTFE) Fakultete za elektrotehniko Univerze v Ljubljani, odgovorna za inovacije in razvojne projekte pri 4PDIH – digitalnem inovacijskem stičišču, ki deluje znotraj LTFE kot podporno okolje v digitalnem ekosistemu. Je doktorska kandidatka na UL FE, kjer se osredotoča na vlogo umetne inteligence pri razvoju digitalnih kompetenc ter uporabniške izkušnje za vključujočo digitalno preobrazbo v družbi, lokalnih skupnostih, javnem sektorju in gospodarstvu."
       },
       {
-        time: "9.30-11.15",
+        time: "9.30-11.10",
         panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "2",
         chair: "Nina Cvar",
@@ -273,7 +273,7 @@ window.programData = [
         bio: "<strong>BARBARA ZAGORC</strong> je raziskovalka na Fakulteti za družbene vede Univerze v Ljubljani in doktorska kandidatka iz sociologije kulture na Filozofski fakulteti Univerze v Ljubljani. Njene raziskave se osredotočajo na urbano epistemologijo, dinamiko moči v produkciji prostora, javno vključevanje v prostorsko načrtovanje, odnos med mestom in univerzo, digitalni prostor ter razvijajoče se prostorske in okoljske vrednote.<br><br><strong>MARKO DROBNJAK</strong> je doktoriral na Pravni fakulteti Univerze v Ljubljani, kjer je izvedel eksperimentalno raziskavo o vplivu govora na sodne postopke. Svojo akademsko dejavnost je nadaljeval s tekočimi raziskavami in je trenutno vključen v eksperimentalni projekt, ki raziskuje, kako lahko umetna inteligenca poenostavi razumevanje pravnih besedil in sorodnih dokumentov. Bil je Fulbrightov raziskovalec na UC Berkeley, kjer je še poglobil svoje raziskovalno znanje. Trenutno dela predvsem kot specialist za odprto znanost pri nacionalnem inštitutu za javno infrastrukturo Arnes."
       },
       {
-        time: "9.30-11.15",
+        time: "9.30-11.10",
         panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "3",
         chair: "Nina Cvar",
@@ -281,16 +281,6 @@ window.programData = [
         title: "Thermodynamics and Feedback Loops: The Problem of Publicness in Change",
         abstract: "The emergence of artificial intelligence and its integration into society represent a profound qualitative shift in the structure of the public sphere. This transformation is marked by unprecedented phenomena arising from feedback loops between human and artificial intelligence. We examine these developments through the lens of a long-standing tradition of public opinion and public sphere theory. Prigogine and Stengers’ critique of classical science—which privileges stability, order, uniformity, and equilibrium—can equally be applied here: public opinion is too often conceived as a fixed state, something to be represented in news media, measured in opinion polls, or captured by big-data analytics. In contrast, drawing on the philosophy of becoming (Deleuze, Bergson, Whitehead) and on Splichal’s recent theorization of gig-publics, we propose an alternative conceptualization of publicness. This perspective emphasizes radical change, transformation, and even rupture—conditions that resist deterministic measurement and instead unfold as complex, indeterminate, and often chaotic processes. The challenge, then, is to rethink how we understand and study publics in an age where human and artificial intelligences co-evolve and continually reshape the conditions of communication and collective life.",
         bio: "<strong>JERNEJ KALUŽA</strong> holds a PhD in Philosophy and is a researcher and assistant professor at the Faculty of Social Sciences (University of Ljubljana, Slovenia). His current work spans the areas of critical theory, communication- and cultural studies. Before joining the Faculty for Social Sciences, he had been also working as a journalist and editor (on Radio Študent, Ljubljana) for more than a decade. He published several articles in Slovenian and international scientific journals."
-      },
-      {
-        time: "9.30-11.15",
-        panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
-        position: "4",
-        chair: "Nina Cvar",
-        speaker: "Slavko Splichal",
-        title: "Gig publics as dissipative systems: A model of energetic regulation of publicness",
-        abstract: "This paper rethinks the contemporary public sphere through the lens of nonlinear physics and platform capitalism by conceptualising <em>gig publics</em> as dissipative systems. These digitally mediated formations—sustained by algorithmic architectures, habits, and contractual norms—convert user attention and affect into platform-compliant performance while dissipating critical civic energy. Drawing on theories of energetic coupling and thermodynamic dissipation, the paper argues that gig publics maintain a metastable equilibrium: apparently stable, yet civically degraded systems that suppress deliberative discourse in favour of behavioural predictability and affective modulation. The analogy with mechanical systems is not metaphorical but structural, capturing how digital publicness is modulated through feedback loops and damping mechanisms. The result is a form of publicness engineered for engagement but hostile to critical agency. However, the same energetic dynamics that fuel volatility may also enable democratic resonance—moments of collective reclamation that overwhelm damping forces and reconstitute public discourse. By proposing sociotechnical interventions—such as algorithmic transparency and regenerative platform design—the paper outlines pathways for converting dissipated civic energy into deliberative renewal. In doing so, it offers a novel framework for theorising publicness under conditions of pervasive automation and algorithmic governance.",
-        bio: "<strong>SLAVKO SPLICHAL</strong> is a professor and Head of Social Communication Research Center at Faculty of Social Sciences, fellow of the Slovenian Academy of Sciences and Arts, a member of Academia Europaea, and recipient of the 2023 Karol Jakubowicz Award. He is founder and director of the European Institute for Communication and Culture (EURICOM) and editor of Javnost. His scholarship includes numerous books and articles on media, democracy, and publicness, with recent work <em>Datafication of Public Opinion and the Public Sphere: How Extraction Replaced Expression of Opinion</em> (2022) and <em>The Gig Public: AI-Driven Contractual and Habitual Performativisation of Publicness</em> (2025)."
       },
       {
         time: "11.30-13.00",
@@ -451,7 +441,7 @@ const routes = {
   "/info": "info.html",
   "/credits": "credits.html",
   "/archive": "archive.html",
-  "/o-konferenci": "o-konferenci.html",
+  "/koncept": "koncept.html",
   "/program": "program.html",
   "/keynote-si": "keynote-si.html",
   "/info-si": "info-si.html",
