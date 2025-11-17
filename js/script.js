@@ -441,10 +441,10 @@ const routes = {
   "/info": "info.html",
   "/credits": "credits.html",
   "/archive": "archive.html",
-  "/o-konferenci": "o-konferenci.html",
+  "/koncept": "koncpet.html",
   "/program": "program.html",
   "/keynote-si": "keynote-si.html",
-  "/lokacije": "lokacije.html",
+  "/info-si": "info-si.html",
   "/kolofon": "kolofon.html",
   "/arhiv": "arhiv.html",
   "/": null
