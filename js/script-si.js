@@ -501,7 +501,7 @@ function currentPath() {
 // Apply .is-active to the matching data-route link
 function setActiveLink(path) {
   // homepage should highlight ABOUT
-  if (path === "/") path = "/about";
+  if (path === "/") path = "/koncept";
 
   document.querySelectorAll(".nav-menu a[data-route]").forEach(a => {
     const linkPath = normalizePath(a.getAttribute("href"));

@@ -59,7 +59,6 @@ header {
     background: url('/images/Artboard_2.png') center / cover no-repeat;
 }
 
-
 main {
     flex: 1;
     padding: 40px 0;
@@ -84,6 +83,7 @@ main {
     display: flex;
     margin-left: 20px;
     margin-top: 40px;
+    align-items: flex-start;
 }
 
 .nav-menu {
@@ -125,7 +125,8 @@ main {
     background: transparent;
     border: 0;
     padding: 0px;
-    margin: 15px 0px 0px 15px;
+    margin: 20px 0px 0px 15px;
+    align-self: flex-start;
     cursor: pointer;
 }
 
@@ -274,50 +275,6 @@ summary::-webkit-details-marker {display: none;} /*safari*/
     border-radius: .25rem;
 }
 
-/*
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(var(--dark-purple-rgb), 0.95);
-}
-
-.news-content:hover .overlay {
-  opacity: 1;
-}
-
-.overlay-text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.events {
-    position: relative;
-    display: block;
-    padding: 0px 0px 40px 0px;
-    margin-bottom: 20px;
-    text-decoration: none;
-}
-
-.events h3 {
-    color: var(--fg);
-}
-
-.events p {
-    color: var(--fg);
-}*/
-
 .keynote-content {
     margin-bottom: 40px;
 }
@@ -359,6 +316,10 @@ summary::-webkit-details-marker {display: none;} /*safari*/
     margin-bottom: 30px;
 }
 
+.venues-content h2 {
+    margin-bottom: 20px
+}
+
 .venue-map iframe {
     width: 100%;
     height: 300px;
@@ -367,7 +328,12 @@ summary::-webkit-details-marker {display: none;} /*safari*/
 }
 
 .credits-content {
+    margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.credits-content h2 {
+    margin-bottom: 20px
 }
 
 .contacts h3 a {
@@ -378,12 +344,78 @@ summary::-webkit-details-marker {display: none;} /*safari*/
 }
 
 .archive-content {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 4rem;
+    margin-top: 20px;
     margin-bottom: 30px;
+    position: relative;
+}
+
+.archive-content h3 {
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .archive-content a {
     text-decoration: none;
 }
+
+.archive-content p {
+    color: var(--white);
+}
+
+.archive-content img {
+    height: 175px;
+    width: auto;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+
+.events {
+    position: relative;
+    display: block;
+    padding: 0px 0px 40px 0px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.events h3 {
+    color: var(--fg);
+}
+
+.events p {
+    color: var(--fg);
+}
+/*
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(var(--dark-purple-rgb), 0.95);
+}
+
+.news-content:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+*/
 
 footer {
     position: relative;
@@ -405,8 +437,8 @@ hr.footer-line {
     flex-direction: row;
     align-items: center;
     width: 100%;
-    max-width: 1800px;
-    margin: 5px auto 0px;
+    /*max-width: 1800px;*/
+    margin: 5px auto 0px 60px;
     padding: 0px;
     gap: 2rem;
 }
@@ -456,7 +488,7 @@ hr.footer-line {
     .nav-menu {
         display: none;
         position: relative;
-        margin-top: 30px;
+        margin-top: 20px;
         padding: 0px;
         gap: 0.5em;
         background: transparent;
