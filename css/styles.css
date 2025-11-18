@@ -16,7 +16,7 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: var(--font);
     line-height: 1.6;
     font-size: clamp(16px, 1.8vw, 18px); 
@@ -29,7 +29,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    scrollbar-gutter: stable both-edges;
+    max-width: 100%;
 }
 
 .container {
@@ -180,6 +180,7 @@ main {
 }
 
 .day {
+    margin-top: 40px;
     padding: 0px 0px 60px 0px;
 }
 
@@ -276,6 +277,7 @@ summary::-webkit-details-marker {display: none;} /*safari*/
 }
 
 .keynote-content {
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
@@ -313,6 +315,7 @@ summary::-webkit-details-marker {display: none;} /*safari*/
 }
 
 .venues-content {
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -328,7 +331,7 @@ summary::-webkit-details-marker {display: none;} /*safari*/
 }
 
 .credits-content {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -348,7 +351,7 @@ summary::-webkit-details-marker {display: none;} /*safari*/
     flex-direction: row;
     align-items: left;
     gap: 4rem;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 30px;
     position: relative;
 }
@@ -464,24 +467,50 @@ hr.footer-line {
 }
 
 @media (max-width: 900px) {
-  .hamburger {display: block;}
-  .nav-menu {
-    display: none;
-    position: relative;
-    margin: 0 16px 16px;
-    padding: 12px 0;
-    gap: 0.8em;
-    background: transparent;
-  }
-  .nav-menu.open {display: flex;}
-  .nav-menu li {margin: 0;}
+    main { 
+        padding: 0px; 
+        margin-bottom: 20px;
+    }
+    .container {
+        margin-right: 0px;
+    }
+    .navbar {
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav-menu {
+        display: none;
+        position: relative;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        gap: 0.6em;
+        background: transparent;
+    }
+    .nav-menu.open {display: flex;}
+    .nav-menu li {margin: 0;}
+    .hamburger {
+        display: block;
+        margin: 0px 15px;}
+    .content {
+        margin: 0px;
+        padding: 0px 15px 0px;
+    }
+    .news-section, .programme-section {
+        margin-top: 20px 0px 0px 0px; 
+        padding: 0px;
+    }
+    .keynote-content, .archive-content, .venues-content, .credits-content {
+        margin: 0px;
+        padding: 0px;
+    } 
 }
 
 @media (max-width: 600px) {
     header {aspect-ratio: 2 / 1,12;} 
     main { 
         padding: 0px; 
-        margin-bottom: 20px}
+        margin-bottom: 20px;
+    }
     .navbar {
         margin: 0px;
     }
@@ -494,7 +523,7 @@ hr.footer-line {
         background: transparent;
     }
     .content {
-        margin: 30px; 
+        margin: 3px; 
         padding: 0px;}
     .main-section {
         padding: 0px; 
