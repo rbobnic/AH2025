@@ -320,10 +320,15 @@ summary::-webkit-details-marker {display: none;} /*safari*/
 }
 
 .venue-map iframe {
-    width: 100%;
+    max-width: 100%;
     height: 300px;
     border: 0;
     border-radius: 8px;
+    margin: 40px;
+}
+
+#mirje-2 {
+    margin: 40px 40px 0px;
 }
 
 .credits-content {
@@ -439,7 +444,6 @@ hr.footer-line {
     width: 100%;
     /*max-width: 1800px;*/
     margin: 5px auto 0px 60px;
-    padding: 0px;
     gap: 2rem;
 }
 
@@ -496,10 +500,21 @@ hr.footer-line {
         margin: 20px 0px 0px 0px; 
         padding: 0px;
     }
-    .keynote-content, .archive-content, .venues-content, .credits-content {
-        margin: 0px;
+    .archive-content, .venues-content, .credits-content {
+        margin: 0px 0px 40px 0px;
         padding: 0px;
-    } 
+    }
+    .keynote-content {
+        margin: 0px 0px 30px 0px;
+        padding: 0px;
+    }
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+        padding: 8px 30px;
+        margin: 5px auto 0;
+    }
 }
 
 @media (max-width: 600px) {
@@ -532,7 +547,7 @@ hr.footer-line {
         margin: 10px 0px 0px; 
         padding: 0px;}
     .archive-content, .venues-content, .credits-content {
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 40px 0px;
         padding: 0px;
     } 
     .day {
@@ -567,20 +582,27 @@ hr.footer-line {
     .bio {
         margin: 20px 0 40px 5px; 
         font-size: 1rem;}
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 8px 10px;
+        margin: 5px auto 0;
+    }
+    hr.footer-line {
+    background: var(--magenta);
+    }
     .footer-logos img {
     height: 30px;
     width: auto;
     }
-    .footer-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 12px;
-      padding: 8px 10px;
-      max-width: 100%;
+    .footer-logos #fb {
+    height: 18px;
+    width: auto;
     }
-    hr.footer-line {
-    background: var(--magenta);
+    .contacts h3 a {
+    font-size: 0.9em;
+    font-weight: 600;
 }
 }
 
