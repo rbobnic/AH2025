@@ -130,19 +130,9 @@
         bio: "<strong>IVAN MATIĆ</strong> is a research associate at the Institute for Political Studies, Belgrade. He completed his doctorate, <em>The Doctrine of Natural Rights in Contractualist Thought</em>, at the Faculty of Philosophy, University of Belgrade, in 2020. He has published one monograph, two edited books, and over a dozen papers in the fields of political philosophy, social anthropology, classical sciences, and film theory."
       },
       {
-        time: "14.15-16.00",
+        time: "14.15-15.45",
         panel: "PANEL III: NEURAL MEDIA EPISTEMOLOGY",
-        position: "2",
-        chair: "Jasmina Šepetavc",
-        speaker: "Simon Hajdini",
-        title: "Spectral haptics: On touch in the age of the untouchable",
-        abstract: "The talk takes its cue from recent developments in haptics as they relate to the technical image, especially to holograms. Today’s convergence of digital holographic technology with midair haptics enables us to re-visit, and perhaps re-evaluate, the social function of, and the compulsion to, touch. The talk scrutinizes these emerging technologies to sketch out their conceptual value for a psychoanalytically infused philosophical exploration of the sociotechnical construction of touch in the age of digital untouchability.",
-        bio: "<strong>SIMON HAJDINI</strong> is a Senior Research Associate at the Department of Philosophy at the University of Ljubljana, where he teaches social and political philosophy. He specializes in critical theory, political economy, hyperstructuralism and psychoanalysis. At present, he is researching and writing on the sensorial politics of social divisions. His latest book is <em>What's That Smell? A Philosophy of the Olfactory</em> (MIT Press, 2024)."
-      },
-      {
-        time: "14.15-16.00",
-        panel: "PANEL III: NEURAL MEDIA EPISTEMOLOGY",
-        position: "4",
+        position: "3",
         chair: "Jasmina Šepetavc",
         speaker: "Eva Drofenik & Jaka Vrščaj",
         title: "Grok, is this true? Synthetic epistemes and the technogenesis of knowledge",
@@ -150,7 +140,7 @@
         bio: "<strong>EVA DROFENIK</strong> is an undergraduate student of Sociology of Culture at the Faculty of Arts, University of Ljubljana. Her academic interests include theories of technology, sociology of religion and popular culture. She is currently working on her bachelor’s thesis on computational homiletics.<br><br><strong>JAKA VRŠČAJ</strong> is a student of Sociology of Culture at the Faculty of Arts, University of Ljubljana. His academic interests include epistemology and theories of power, technology and capitalism."
       },
       {
-        time: "14.15-16.00",
+        time: "14.15-15.45",
         panel: "PANEL III: NEURAL MEDIA EPISTEMOLOGY",
         position: "1",
         chair: "Jasmina Šepetavc",
@@ -160,9 +150,9 @@
         bio: "<strong>KATHERINE BEHAR</strong> is Professor of New Media Arts at Baruch College and The Graduate Center of the City University of New York. She is an interdisciplinary artist and media theorist whose work interrogates digital culture through feminism and materialism. Behar is the author and editor of several books, including <em>Object-Oriented Feminism</em> (University of Minnesota Press). Her solo exhibition catalogs include Data's Entry | Veri Girişi (Pera Museum) and E-Waste (Tuska Center for Contemporary Art). Ack! Knowledge! Work!, an expanded catalog for her critically-acclaimed solo exhibition at the Beall Center for Art + Technology, is forthcoming from Punctum books.<br><br><strong><a href='www.davidcecchetto.net'>DAVID CECCHETTO</strong></a> is Professor of Critical Digital Theory at York University (Toronto). David is co-editor of the Proximities: Experiments in Nearness book series (University of Minnesota Press) and is past President (2020-2024) of the Society for Literature, Science, and the Arts. He is author, co-author, and editor of several books and articles, including <em>Listening in the Afterlife of Data</em> (Duke UP, 2022), <em>Ludic Dreaming</em> (Bloomsbury, 2017), and <em>Humanesis</em> (Minnesota, 2013). David performs and records as part of the musical group Bitstance."
       },
       {
-        time: "14.15-16.00",
+        time: "14.15-15.45",
         panel: "PANEL III: NEURAL MEDIA EPISTEMOLOGY",
-        position: "3",
+        position: "2",
         chair: "Jasmina Šepetavc",
         speaker: "Zarja Zver",
         title: "From Formal Rules to Probabilistic Language Processing: Large language models as the impetus for a new epistemology of language",
@@ -227,10 +217,10 @@
         panel: "PANEL VI: MISCELLANEOUS",
         position: "1",
         chair: "Lidija Šumah",
-        speaker: "Maks Valenčič",
-        title: "The universe of the Capitalist and the new contemporary subjectivity",
-        abstract: "In my talk, I will explain the new type of contemporary subjectivity within the framework of Lacanian psychoanalysis. More specifically, the question of contemporary subjectivity will be explored through Lacanian discourse theory – namely, the four fundamental discourses that Lacan outlined in <em>Seminar XVII</em>. Following philosopher Levi Bryant, I will propose that these four discourse types – Master, University, Hysteric, and Analyst – all belong to the universe of the Master and are therefore increasingly unrepresentative of the subjectivity that has emerged in the 21st century within the new universe of the Capitalist. To address this, I will present four new permutations within the Capitalist discourse, highlighting a subjectivity Lacan never systematically developed.",
-        bio: "<strong>MAKS VALENČIČ</strong> is a theorist, writer, and editor. His philosophical project of psychotic accelerationism attempts to formalize accelerationist theory within the psychotic register, understood as an engine of acceleration. Additionally, he is a researcher at The New Centre for Research and Practice and host of the <em>Tehnologos</em> podcast. His writing can be accessed on his webpage, <em>Psychotic Savoir</em>, where he charts the implications of psychotic subjectivity."
+        speaker: "Simon Hajdini",
+        title: "Spectral haptics: On touch in the age of the untouchable",
+        abstract: "The talk takes its cue from recent developments in haptics as they relate to the technical image, especially to holograms. Today’s convergence of digital holographic technology with midair haptics enables us to re-visit, and perhaps re-evaluate, the social function of, and the compulsion to, touch. The talk scrutinizes these emerging technologies to sketch out their conceptual value for a psychoanalytically infused philosophical exploration of the sociotechnical construction of touch in the age of digital untouchability.",
+        bio: "<strong>SIMON HAJDINI</strong> is a Senior Research Associate at the Department of Philosophy at the University of Ljubljana, where he teaches social and political philosophy. He specializes in critical theory, political economy, hyperstructuralism and psychoanalysis. At present, he is researching and writing on the sensorial politics of social divisions. His latest book is <em>What's That Smell? A Philosophy of the Olfactory</em> (MIT Press, 2024)."
       },
       {
         time: "16.15-17.45",
@@ -253,7 +243,7 @@
         bio: "<strong>MIROSLAV GRIŠKO</strong> is a philosopher and writer based in Ljubljana. He is the author of <em>Eshatološka vojna</em> (<em>Eschatological War</em>), published in 2022 by KUD Apokalipsa and in electronic edition by Društvo Galerija Boks (2023)."
       },
       {
-        time: "9.15-11.10",
+        time: "9.15-11.00",
         panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "1",
         chair: "Nina Cvar",
@@ -558,4 +548,12 @@ document.addEventListener("DOMContentLoaded", () => {
     burger.classList.toggle("active", open);
     burger.setAttribute("aria-expanded", String(open));
   });
+
+  menu.addEventListener("click", (e) => {
+    if (e.target.closest("a[data-route]")) {
+      menu.classList.remove("open");
+      burger.classList.remove("active");
+      burger.setAttribute("aria-expanded", "false");
+    }
+  })
 });
