@@ -463,7 +463,7 @@ async function loadRoute(path) {
     const html = await (await fetch(target)).text();
     container.innerHTML = html;
     // Hydrate AFTER injection
-    if (path === "/programme" && typeof renderProgram === "function") {
+    if (path === "/program" && typeof renderProgram === "function") {
       renderProgram(window.programData);
     }
 
