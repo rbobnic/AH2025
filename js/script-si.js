@@ -463,12 +463,16 @@ async function loadRoute(path) {
     const html = await (await fetch(target)).text();
     container.innerHTML = html;
     // Hydrate AFTER injection
-    if (path === "/program" && typeof renderProgram === "function") {
+    if (path === "/programme" && typeof renderProgram === "function") {
       renderProgram(window.programData);
     }
 
-    // Optional: scroll to top of content
+    const main = document.querySelector("main");
+    if (main) {
+    main.scrollIntoView({ behavior: "instant", block: "start" });
+    } else {
     container.scrollIntoView({ behavior: "instant", block: "start" });
+    }
   } catch (err) {
     container.innerHTML = "<p>Couldn't load this section.</p>";
     console.error(err);

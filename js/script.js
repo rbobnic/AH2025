@@ -467,8 +467,12 @@ async function loadRoute(path) {
       renderProgram(window.programData);
     }
 
-    // Optional: scroll to top of content
+    const main = document.querySelector("main");
+    if (main) {
+    main.scrollIntoView({ behavior: "instant", block: "start" });
+    } else {
     container.scrollIntoView({ behavior: "instant", block: "start" });
+    }
   } catch (err) {
     container.innerHTML = "<p>Couldn't load this section.</p>";
     console.error(err);
