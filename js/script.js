@@ -20,7 +20,7 @@
     location: "Faculty of Social Sciences, lecture room FDV23",
     items: [
       {
-        time: "9.15-11.00",
+        time: "9.15-10.45",
         panel: "PANEL I: AI GENERATED CULTURE",
         position: "1",
         chair: "Robert Bobnič",
@@ -30,7 +30,7 @@
         bio: "<strong>LOVRENC ROGELJ</strong> is a Junior Researcher at the Institute of Philosophy of the Slovenian Academy of Arts and Sciences and is also a member of the Programme Committee of the Institute for Labour Studies. His work focuses on the notion of standardisation in relation to the theory of the commodity form, more specifically on the question of the specificity of the production and consumption of commodities created by so‑called artistic means."
       },
       {
-        time: "9.15-11.00",
+        time: "9.15-10.45",
         panel: "PANEL I: AI GENERATED CULTURE",
         position: "2",
         chair: "Robert Bobnič",
@@ -40,7 +40,7 @@
         bio: "<strong>ENEJ ZORMAN</strong> is an MA student of political science at the Faculty of Social Sciences in Ljubljana. His research interests stem from the intersection of technology and politics from a critical perspective. Mainly focusing on the various manifestations of technocracy and other similar techno-deterministic ideologies.<br><br><strong>JAŠA POTOČNIK</strong> is an MA student of political theory at the Faculty of Social Sciences, University of Ljubljana. His research encompasses various fields, including foreign policy, imperialism, and unequal exchange. His interest in the topic arose from both his role as an amateur musician, a music journalist, and the fascination with the interconnectedness of art, technology, and capital."
       },
       {
-        time: "9.15-11.00",
+        time: "9.15-10.45",
         panel: "PANEL I: AI GENERATED CULTURE",
         position: "3",
         chair: "Robert Bobnič",
@@ -233,7 +233,7 @@
         bio: "<strong>MIROSLAV GRIŠKO</strong> is a philosopher and writer based in Ljubljana. He is the author of <em>Eshatološka vojna</em> (<em>Eschatological War</em>), published in 2022 by KUD Apokalipsa and in electronic edition by Društvo Galerija Boks (2023)."
       },
       {
-        time: "9.15-11.00",
+        time: "9.30-11.00",
         panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "1",
         chair: "Nina Cvar",
@@ -243,7 +243,7 @@
         bio: "<strong>NIKOLAJ FIŠER</strong> is a Junior Researcher at the Faculty of Arts, University of Ljubljana (Sociology of Culture) and a PhD student at Universitat Autònoma de Barcelona (audiovisual communication). He has presented at ECREA (2023, 2024) and NODOS (2024), with publications in PLOS ONE, a book chapter in NODOS proceedings, and a forthcoming paper in <em>Ars et Humanitas</em>."
       },
       {
-        time: "9.15-11.00",
+        time: "9.30-11.00",
         panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "2",
         chair: "Nina Cvar",

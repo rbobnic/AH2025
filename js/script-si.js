@@ -20,7 +20,7 @@ window.programData = [
     location: "Fakulteta za družbene vede, predavalnica FDV23",
     items: [
       {
-        time: "9.15-11.00",
+        time: "9.15-10.45",
         panel: "PANEL I: AI GENERATED CULTURE",
         position: "1",
         chair: "Robert Bobnič",
@@ -30,7 +30,7 @@ window.programData = [
         bio: "<strong>LOVRENC ROGELJ</strong> je mladi raziskovalec na Filozofskem inštitutu ZRC SAZU in član programskega odbora Inštituta za delavske študije. V svojem delu se osredotoča na pojem standardizacije v povezavi s teorijo blagovne forme, natančneje z vprašanjem posebnosti proizvodnje in potrošnje blag, ustvarjenih s t.i. umetniškimi sredstvi."
       },
       {
-        time: "9.15-11.00",
+        time: "9.15-10.45",
         panel: "PANEL I: AI GENERATED CULTURE",
         position: "2",
         chair: "Robert Bobnič",
@@ -40,7 +40,7 @@ window.programData = [
         bio: "<strong>ENEJ ZORMAN</strong> is an MA student of political science at the Faculty of Social Sciences in Ljubljana. His research interests stem from the intersection of technology and politics from a critical perspective. Mainly focusing on the various manifestations of technocracy and other similar techno-deterministic ideologies.<br><br><strong>JAŠA POTOČNIK</strong> is an MA student of political theory at the Faculty of Social Sciences, University of Ljubljana. His research encompasses various fields, including foreign policy, imperialism, and unequal exchange. His interest in the topic arose from both his role as an amateur musician, a music journalist, and the fascination with the interconnectedness of art, technology, and capital."
       },
       {
-        time: "9.15-11.00",
+        time: "9.15-10.45",
         panel: "PANEL I: AI GENERATED CULTURE",
         position: "3",
         chair: "Robert Bobnič",
@@ -163,7 +163,7 @@ window.programData = [
     location: "Fakulteta za družbene vede, predavalnica FDV23",
     items: [
         {
-        time: "9.15-11.00",
+        time: "9.30-11.00",
         panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "1",
         chair: "Nina Cvar",
