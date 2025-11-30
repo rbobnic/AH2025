@@ -253,7 +253,7 @@
         bio: "<strong>BARBARA ZAGORC</strong> is a researcher at the Faculty of Social Sciences, University of Ljubljana, and a PhD candidate in the Sociology of Culture at the Faculty of Arts, University of Ljubljana. Her research focuses on urban epistemology, power dynamics in the production of space, public engagement in spatial planning, the city–university relationship, digital space, and evolving spatial and environmental values.<br><br><strong>MARKO DROBNJAK</strong> completed his PhD at the Faculty of Law, University of Ljubljana, where he conducted an experimental research on the influence of speech on judicial proceedings. He has continued his academic engagement through ongoing research and is currently involved in an experimental project exploring how artificial intelligence can simplify the understanding of legal texts and related documents. He was a Fulbright Researcher at UC Berkeley, where he further deepened his research expertise. Currently, he works primarily as an open science specialist at the national public infrastructure institute Arnes."
       },
       {
-        time: "9.15-11.00",
+        time: "9.30-11.00",
         panel: "PANEL V: AI CREATION AND PUBLIC TRANSFORMATION",
         position: "3",
         chair: "Nina Cvar",
