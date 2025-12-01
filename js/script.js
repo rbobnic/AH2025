@@ -20,7 +20,7 @@
     location: "Faculty of Social Sciences, lecture room FDV23",
     items: [
       {
-        time: "9.15-11.45",
+        time: "9.15-10.45",
         panel: "PANEL I: AI GENERATED CULTURE",
         position: "1",
         chair: "Robert Bobnič",
@@ -30,7 +30,7 @@
         bio: "<strong>LOVRENC ROGELJ</strong> is a Junior Researcher at the Institute of Philosophy of the Slovenian Academy of Arts and Sciences and is also a member of the Programme Committee of the Institute for Labour Studies. His work focuses on the notion of standardisation in relation to the theory of the commodity form, more specifically on the question of the specificity of the production and consumption of commodities created by so‑called artistic means."
       },
       {
-        time: "9.15-11.45",
+        time: "9.15-10.45",
         panel: "PANEL I: AI GENERATED CULTURE",
         position: "2",
         chair: "Robert Bobnič",
@@ -40,7 +40,7 @@
         bio: "<strong>ENEJ ZORMAN</strong> is an MA student of political science at the Faculty of Social Sciences in Ljubljana. His research interests stem from the intersection of technology and politics from a critical perspective. Mainly focusing on the various manifestations of technocracy and other similar techno-deterministic ideologies.<br><br><strong>JAŠA POTOČNIK</strong> is an MA student of political theory at the Faculty of Social Sciences, University of Ljubljana. His research encompasses various fields, including foreign policy, imperialism, and unequal exchange. His interest in the topic arose from both his role as an amateur musician, a music journalist, and the fascination with the interconnectedness of art, technology, and capital."
       },
       {
-        time: "9.15-11.45",
+        time: "9.15-10.45",
         panel: "PANEL I: AI GENERATED CULTURE",
         position: "3",
         chair: "Robert Bobnič",
@@ -50,7 +50,7 @@
         bio: "<strong>VANESSA NINA BORSAN</strong>, PhD, works at the intersection of music and technology. After completing her master’s degrees in Musicology (University of Ljubljana) and in Sound and Music Computing (Pompeu Fabra University), she earned her PhD in Computer Science from the University of Lille. Her doctoral research focused on computer-assisted analysis of musical patterns in Slovenian folk songs. She critically reflects on computational approaches in music studies and incorporates contemporary technologies into music research and education. She has worked in Slovenia, France, Spain, the United Kingdom, and Japan, and is currently a research fellow at the Department of Musicology, Faculty of Arts, University of Ljubljana.<br><br><strong>JAN OVNIK</strong> is a Junior Researcher at the Institute of Ethnomusicology ZRC SAZU. He holds a master’s degree in Musicology from the Faculty of Arts at the University of Ljubljana. He is currently in the final stages of his second master’s degree in Social and Cultural History at the same institution, where he is also enrolled in a doctoral programme in Ethnology and Cultural and Social Anthropology. As part of his postgraduate studies, he spent a semester at the University of Padua in Italy, and during his doctoral studies, he spent over a month at An Giang University in Vietnam. His research has addressed topics in cultural history, (historical) ethnomusicology, epistemology of music studies, and economic anthropology of music."
       },
       {
-        time: "11.15-13.20",
+        time: "11.00-13.00",
         panel: "PANEL II: PHILOSOPHICAL INVESTIGATIONS OF AI",
         position: "1",
         chair: "Simon Hajdini",
@@ -60,7 +60,7 @@
         bio: "<strong>MARTIN HERGOUTH</strong> is a researcher at the Department of Philosophy, Faculty of Arts, University of Ljubljana. He completed his PhD on the theme of the ordinary in Hegel’s political philosophy. His current philosophical project consists of pointing out how the conceptual resources of German classical philosophy can inform the debate on AI."
       },
       {
-        time: "11.15-13.20",
+        time: "11.00-13.00",
         panel: "PANEL II: PHILOSOPHICAL INVESTIGATIONS OF AI",
         position: "2",
         chair: "Simon Hajdini",
@@ -70,7 +70,7 @@
         bio: "<strong>SAŠO FURLAN</strong> holds MA in political science and PhD in philosophy. He is the author of numerous texts in the fields of political economy, political philosophy, and critical social theory. He is a member of the editorial board of the journal <em>Borec</em> and a translator. He has published with the publishers Studia Humanitatis, Sophia, Cf*, and the journal <em>Filozofski vestnik</em>, among others."
       },
       {
-        time: "11.15-13.20",
+        time: "11.00-13.00",
         panel: "PANEL II: PHILOSOPHICAL INVESTIGATIONS OF AI",
         position: "3",
         chair: "Simon Hajdini",
@@ -80,13 +80,13 @@
         bio: "<strong>IGOR BIJUKLIČ</strong> is a long-time collaborator of Radio Študent, where he worked in the cultural and university editorial office as a writer of reviews, critic, and co-creator of the satirical program on contemporary university and science PUKP. He is currently employed as a researcher at the Institute for Educational in Ljubljana. His main research areas include critical media theory and the philosophy of technology. In recent years, he has devoted himself to analyzing new anthropological assumptions arising from the ideologemes and narratives of contemporary technological society (such as transhumanism, social engineering, scientific management, etc.) and their influence on the understanding of education, its goals, and its future."
       },
       {
-        time: "11.15-13.20",
+        time: "11.00-13.00",
         panel: "PANEL II: PHILOSOPHICAL INVESTIGATIONS OF AI",
         position: "4",
         chair: "Simon Hajdini",
         speaker: "Joseph Grim Feinberg",
-        title: "Feces on Feuerbach and the Base (In-)humanism of Bataille",
-        abstract: "I follow Eric Powell’s paper “Making Fa(e)ces” from the Legacies of Antihumanism conference, and Simon Hajdini’s <em>What’s That Smell?</em> to further explore the philosophical implications of shit. I’ll begin with a look at Feuerbach’s humanism, which was defined by a turn away from spiritual alienation to sensual experience, but which also presupposed human experience as something clean. This gave materialist grounding to a form of humanism that, even while criticizing the one-sided spirituality of Christianity, had no place for shit. To bring shit into philosophy, I turn to Bataille’s notion of base materialism, which understands the material “base” not as an a priori, self-grounded notion of matter, but as a result of how a social formation distinguishes between the (spiritual) high and the (material) low. After Christianity defined God as high and the human as low, humanism redefined the human as high while relegating denigrated dimensions of social life to the realm of shit. Today, when technologies of artificial intelligence and social media are said to bring out the worst in people, awakening our base instincts and most vulgar selves, it may be time for a revived vulgar materialism capable of accounting for this shit.",
+        title: "Technics of Media, Old and New: AI and the Problem of Medium-as-Subject",
+        abstract: "There is a tendency to consider the latest technological innovations in light of whatever came immediately before them, emphasizing the absolute novelty of the new and the oldness of the nearly new. I counter this by situating the internet, social media, and AI in the <em>longue durée</em> of media history. Rather than opposing alienating “media” to supposedly immediate face-to-face communication, I approach all structures of communication as forms of media. In this context, I ask how notions of emancipation and, concurrently, of servitude have been structured by the media through which they are communicated and thought. I conclude by asking how this situation changes when a new medium of communication—the AI chat platform—is simultaneously understood as a new subject of communication, a being with a claim to intelligence and the appearance of agency. This new medium challenges us not only to ask how we are empowered or enchained by the means available for communicating, but how the medium itself may serve us or lay claim to its own freedom.",
         bio: "<strong>JOSEPH GRIM FEINBERG</strong> is a researcher at the Institute of Philosophy of the Czech Academy of Sciences. His work explores the construction of political subjectivity, narrative protagonism, and aesthetic expression in the history of Central and Eastern Europe. His publications include a commented edition of Karel Teige’s <em>Marketplace of Art</em> (co-edited with Sezgin Boynik, 2022), the volume <em>Karel Kosík and the Dialectics of the Concrete</em> (Ivan Landa and Jan Mervart, 2022), and a philosophical interpretation of folklore and modernity <em>The Paradox of Authenticity</em> (2018)."
       },
       {
@@ -163,7 +163,7 @@
     location: "Faculty of Social Sciences, lecture room FDV23",
     items: [
       {
-        time: "14.00-16.05",
+        time: "14.00-16.00",
         panel: "PANEL VII: ARTIFICIAL ART AND AESTHETICS",
         position: "1",
         chair: "Jernej Kaluža",
@@ -173,7 +173,7 @@
         bio: "<strong>TANYA RAVN AG</strong>, Ph.D., is an Assistant Professor at the University of Copenhagen, Department of Arts and Cultural Studies. Her research explores the intersections of art, temporality, and technology, combined with an interest in digital literacy and media aesthetic analysis. Her curatorial engagements include the Screen City Biennial in Stavanger, Streaming Museum, and São Paulo Urban Digital Gallery. She served as Chair of the ISEA International Advisory Committee (IIAC) from 2020 to 2023 and has been a member of the ISEA Board since 2023.<br><br><strong>MICK WITH BERLAND</strong> is an MA student of Comparative Literature at the University of Copenhagen. He is a former junior research associate at the research centre Art as Forum. His research explores the theory and history of GenAI aesthetics.<br><br><strong>DANIEL IRRGANG</strong> is a scholar in the fields of media, art, and cultural studies. He is an associate researcher at the Weizenbaum Institute for the Networked Society in Berlin. Previously, he was a Marie Skłodowska-Curie fellow at the Department of Arts and Cultural Studies, University of Copenhagen. He also served as a guest professor at Leuphana University of Lüneburg, where he represented the chair in Media Aesthetics and Media Technology. Daniel holds a PhD in media studies and is the author and editor of numerous books on the history and theory of media, culture, and the arts."
       },
       {
-        time: "14.00-16.05",
+        time: "14.00-16.00",
         panel: "PANEL VII: ARTIFICIAL ART AND AESTHETICS",
         position: "2",
         chair: "Jernej Kaluža",
@@ -183,7 +183,7 @@
         bio: "<strong>ESZTER POLONYI</strong> is a postdoc at the Kunstuniversität Linz’s Art History and Art Theory Department who is also co-managing an interdisciplinary ARIS project at the University of Ljubljana. This talk comes from her book manuscript about the origins of automated recognition systems in the history of art, science, and media, which grew out of another ARIS-funded project (ERC Complementary Scheme; An Archaeology of Identity Photography, 2022-23). She received degrees from Columbia University (PhD, MPhil, MA), the Courtauld Institute Of Art (MA), and Wellesley College (BA)."
       },
       {
-        time: "14.00-16.05",
+        time: "14.00-16.00",
         panel: "PANEL VII: ARTIFICIAL ART AND AESTHETICS",
         position: "3",
         chair: "Jernej Kaluža",
@@ -193,7 +193,7 @@
         bio: "<strong>ROK BENČIN</strong> is a philosopher working on the intersections of aesthetics, ontology, and politics. He is a Research Associate at the Research Centre of the Slovenian Academy of Sciences and Arts (ZRC SAZU) and teaches at the ZRC SAZU Postgraduate School and the University of Ljubljana’s Academy of Fine Arts and Design. He has held seminars at the University of Paris 8 and the University of Applied Arts Vienna. He is the author of <em>Rethinking the concept of world: Towards transcendental multiplicity</em> (2024)."
       },
       {
-        time: "14.00-16.05",
+        time: "14.00-16.00",
         panel: "PANEL VII: ARTIFICIAL ART AND AESTHETICS",
         position: "4",
         chair: "Jernej Kaluža",
@@ -213,7 +213,7 @@
         bio: "<strong>SIMON HAJDINI</strong> is a Senior Research Associate at the Department of Philosophy at the University of Ljubljana, where he teaches social and political philosophy. He specializes in critical theory, political economy, hyperstructuralism and psychoanalysis. At present, he is researching and writing on the sensorial politics of social divisions. His latest book is <em>What's That Smell? A Philosophy of the Olfactory</em> (MIT Press, 2024)."
       },
       {
-        time: "16.20-17.50",
+        time: "16.15-17.45",
         panel: "PANEL VIII: POST-ANTHROPOGENESIS",
         position: "3",
         chair: "Primož Krašovec",
@@ -273,7 +273,7 @@
         bio: "<strong>PRIMOŽ KRAŠOVEC</strong> is an Associate Professor at the Department of Sociology, Faculty of Arts, University of Ljubljana, where he teaches courses on epistemology, ideology, theory of technology and digital cultures. His current research areas are: antihumanities; machine intelligences; and new media cultures. In 2021 he published his first book <em>Tujost kapitala</em> (<em>Alien Capital</em>). He also co‑edits Izhodi (Exits) book series at Sophia publishing house."
       },
       {
-        time: "16.20-17.50",
+        time: "16.15-17.45",
         panel: "PANEL VIII: POST-ANTHROPOGENESIS",
         position: "2",
         chair: "Primož Krašovec",
@@ -283,7 +283,7 @@
         bio: "<strong>MATIJA PUŠNIK</strong>, MA in Philosophy, primarily deals with the use of debate and argumentation pedagogy as a tool for the development of critical thinking and various forms of literacy (with an emphasis on media, information, and data literacy) in formal and informal education. He is employed as head of education at IDEA (International Debate Education Association) and has previously written for Radio Študent and Disenz."
       },
       {
-        time: "16.20-17.50",
+        time: "16.15-17.45",
         panel: "PANEL VIII: POST-ANTHROPOGENESIS",
         position: "4",
         chair: "Primož Krašovec",
